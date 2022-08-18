@@ -1,11 +1,9 @@
 <?php
 
-class generalView
-{
-    public function makeHeader($data, $conf, $lang)
-    {
+class generalView{
+    public function makeHeader($data,$conf,$lang){
 
-        $html = '<html><body>';
+        $html ='<html><body>';
 
         return $html;
     }
